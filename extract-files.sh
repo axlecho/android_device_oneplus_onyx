@@ -54,4 +54,6 @@ setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 
 extract "$MY_DIR"/proprietary-files.txt "$SRC"
 
+cp -r proprietary/ "$CM_ROOT"/vendor/oneplus/onyx/
+
 "$MY_DIR"/setup-makefiles.sh

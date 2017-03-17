@@ -121,10 +121,6 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libtinyxml
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
@@ -231,6 +227,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     wcnss_service
+
+PRODUCT_PACKAGES += \
+    OPLauncher
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)

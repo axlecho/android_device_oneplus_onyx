@@ -196,4 +196,7 @@ ifeq ($(BOARD_USES_QCNE),true)
 TARGET_LDPRELOAD := libNimsWrap.so
 endif
 
+# Launcher
+USE_ONEPLUS_LAUNCHER=yes
+
 -include vendor/oneplus/onyx/BoardConfigVendor.mk

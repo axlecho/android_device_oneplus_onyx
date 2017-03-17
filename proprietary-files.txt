@@ -302,3 +302,6 @@ bin/time_daemon
 
 # Wcnss (from ham)
 lib/libwcnss_qmi.so|d17b527007d5a9d468403a2bcf71f35d997d74bf
+
+# Launcher
+-app/OPLauncher/OPLauncher.apk
